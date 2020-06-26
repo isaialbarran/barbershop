@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Barbershop",
+    "slug": "barbershop",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-barber.png",
+    "splash": {
+      "image": "./assets/splash-barbershop.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.isaialbarran.barbershop",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.isaialbarran.barbershop",
+      "permissions": ["CAMERA_ROLL", "LOCATION"]
+    },
+    "description": ""
+  }
+}
